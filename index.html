@@ -12,6 +12,26 @@
     </div>
     <canvas id="game" width="600" height="600"></canvas>
   </main>
+  <style>
+  #myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+
+  #myBar {
+    width: 1%;
+    height: 30px;
+    background-color: #4CAF50;
+  }
+  </style>
+  <body>
+
+    <h2 class="title-text">Timer:</h2>
+    <form id="myProgress">
+      <div id="myBar"></div>
+    </form>
+    <br>
+    <button id="start-btn" onclick="move()">Click Me</button> 
   <script src="main.bundle.js" width="600" height="600"></script>
 </body>
 </html>
