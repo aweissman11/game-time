@@ -1,12 +1,37 @@
+body {
+  /*background-color: blue;*/
+}
+
+main {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  /*box-sizing: border-box;*/
+}
+
 #game {
-  background: rgba(0, 0, 0, 0.856);
+  background: rgba(0, 0, 0, 0);
   border: 1px dashed;
   margin: auto;
   display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
+#background-img {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  background-size: cover;
+}
 
-
-
-/*Frogger background image*/
-/*https://i.imgur.com/uTKHNPr.png*/
+img {
+  width: 600px;
+  height: 600px;
+}
