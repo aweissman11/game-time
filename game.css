@@ -1,11 +1,15 @@
 body {
-  /*background-color: blue;*/
+  background-color: black;
+}
+
+canvas {
 }
 
 main {
   width: 600px;
   height: 600px;
   position: relative;
+  margin: 15px auto;
   /*box-sizing: border-box;*/
 }
 
@@ -34,4 +38,11 @@ main {
 img {
   width: 600px;
   height: 600px;
+}
+
+.frogger {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 180px;
 }
