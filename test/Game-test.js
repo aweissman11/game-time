@@ -26,9 +26,9 @@ describe('Game', () => {
 
   it('should take properties', () => {})
   it('should end game', () => {})
-  it('should collide with walls', () => {})
   it('should be able to move', () => {})
   it('should be able to changeDirection', () => {})
-  it('should reset on collision with a car', () => {})
-  it('should ')
+  it('should lose a life on collision with a car', () => {})
+  it('should lose a life if it lands on water', () => {})
+  it('should earn points if frog lands in spot right spot at the top', () => {})
 })
