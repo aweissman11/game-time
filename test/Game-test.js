@@ -9,6 +9,8 @@ const ctx = {
   }
 }
 
+
+
 describe('Game', () => {
   it('should end the game if blocks collides with wall', () => {
     const game = new Game(ctx);
