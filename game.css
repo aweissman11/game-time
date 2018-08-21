@@ -55,16 +55,24 @@ img {
 }
 
 .info {
+  font-family: 'Press Start 2P', cursive;
   font-size: 20px;
   color: white;
 }
 
+.game-info {
+  position: absolute;
+  bottom: 270px;
+  right: 23px;
+}
+
 .game-btn {
+  font-family: 'Press Start 2P', cursive;
   visibility: visible;
   /*background: gray;*/
   position: absolute;
-  bottom: 351px;
-  left: 351px;
+  bottom: 350px;
+  left: 640px;
 }
 
 
