@@ -10,7 +10,8 @@ main {
   width: 600px;
   height: 600px;
   position: relative;
-  margin: 15px auto;
+  margin: 15px 30px 0 29%;
+  display: inline-block;
   /*box-sizing: border-box;*/
 }
 
@@ -30,7 +31,6 @@ main {
 #background-img {
   width: 600px;
   height: 600px;
-  position: absolute;
   top: 0;
   left: 0;
   z-index: -10;
@@ -56,23 +56,23 @@ img {
 
 .info {
   font-family: 'Press Start 2P', cursive;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
 }
 
 .game-info {
-  position: absolute;
-  bottom: 270px;
-  right: 23px;
+  position: relative;
+  bottom: 450px;
+  left: 1050px;
 }
 
 .game-btn {
   font-family: 'Press Start 2P', cursive;
   visibility: visible;
-  /*background: gray;*/
-  position: absolute;
-  bottom: 350px;
-  left: 640px;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+
 }
 
 
