@@ -30,7 +30,6 @@ main {
 #background-img {
   width: 600px;
   height: 600px;
-  position: absolute;
   top: 0;
   left: 0;
   z-index: -10;
@@ -61,18 +60,17 @@ img {
 }
 
 .game-info {
-  position: absolute;
-  bottom: 270px;
-  right: 23px;
+  position: relative;
+  bottom: 450px;
+  left: 1050px;
 }
 
 .game-btn {
   font-family: 'Press Start 2P', cursive;
   visibility: visible;
-  /*background: gray;*/
-  position: absolute;
-  bottom: 350px;
-  left: 640px;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
 }
 
 
