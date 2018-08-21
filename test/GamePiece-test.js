@@ -19,7 +19,7 @@ describe('GamePiece', () => {
       height: 10,
       width: 10,
       color: 'green',
-      dx: 1,
+      dx: 0,
       dy: 0,
       dxv: 1,
       dyv: 1
