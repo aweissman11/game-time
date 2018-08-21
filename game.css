@@ -10,8 +10,7 @@ main {
   width: 600px;
   height: 600px;
   position: relative;
-  margin: 15px 30px 0 29%;
-  display: inline-block;
+  margin: 0 auto;
   /*box-sizing: border-box;*/
 }
 
@@ -61,9 +60,10 @@ img {
 }
 
 .game-info {
+  display: inline-block;
   position: relative;
   bottom: 450px;
-  left: 1050px;
+  left: 650px;
 }
 
 .game-btn {
@@ -71,7 +71,7 @@ img {
   visibility: visible;
   text-align: center;
   position: relative;
-  bottom: 250px;
+  bottom: 410px;
 
 }
 
