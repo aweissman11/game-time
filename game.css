@@ -10,70 +10,74 @@ header {
 }
 
 .whole-game {
-  width: 600px;
   height: 600px;
-  position: relative;
   margin: auto;
+  position: relative;
+  width: 600px;
 }
 
 #game {
-  visibility: hidden;
   background: rgba(0, 0, 0, 0);
   border: 1px dashed;
-  margin: auto;
   display: block;
-  width: 100%;
   height: 100%;
+  left: 0;
+  margin: auto;
   position: absolute;
   top: 0;
-  left: 0;
+  visibility: hidden;
+  width: 100%;
 }
 
 #background-img {
-  width: 600px;
-  height: 600px;
-  top: 0;
-  left: 0;
-  z-index: -10;
   background-size: cover;
+  height: 600px;
+  left: 0;
+  top: 0;
+  width: 600px;
+  z-index: -10;
 }
 
 img {
-  width: 600px;
   height: 600px;
+  width: 600px;
 }
 
 .frogger {
   display: block;
+  height: 180px;
   margin: auto;
   width: 200px;
-  height: 180px;
 }
 
 .domtest {
-  font-size: 20px;
   color: white;
+  font-size: 20px;
 }
 
 .info {
-  font-size: 35px;
   color: rgb(235  234 71);
-  margin-top: 0px;
   filter: drop-shadow(3px 5px 0px forestgreen);
+  font-size: 35px;
+  margin-top: 0px;
 }
 
 .start-btn {
-  font-size: 50px;
+  bottom: 70px;
   color: rgb(235  234 71);
   filter: drop-shadow(5px 8px 0px forestgreen);
+  font-size: 50px;
   position: relative;
-  bottom: 70px;
+}
+
+.start-btn:hover {
+  cursor: pointer;
 }
 
 .game-score {
-  font-size: 32px;
   color: gray;
   filter: drop-shadow(3px 4px 0px #27d50b);
+  font-size: 32px;
 }
 
 .lost-game {
@@ -84,9 +88,9 @@ img {
 
 .game-info {
   bottom: 470px;
-  position: relative;
-  left: 642px;
   display: inline-block;
+  left: 642px;
+  position: relative;
 }
 
 .number {
@@ -94,15 +98,15 @@ img {
 }
 
 .game-btn {
-  visibility: visible;
-  text-align: center;
-  position: relative;
   bottom: 450px;
+  position: relative;
+  text-align: center;
+  visibility: visible;
 }
 
 .game-over {
-  visibility: hidden;
-  text-align: center;
-  position: relative;
   bottom: 366px;
+  position: relative;
+  text-align: center;
+  visibility: hidden;
 }
