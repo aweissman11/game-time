@@ -11,15 +11,13 @@ canvas {
 }
 
 main {
-  display: grid;
-  grid-template-columns: 1fr 300px;
 }
 
 .whole-game {
   width: 600px;
   height: 600px;
   position: relative;
-  margin: 140px auto;
+  margin: 140px auto 0;
   /*box-sizing: border-box;*/
 }
 
@@ -90,7 +88,6 @@ img {
 
 
 .game-info {
-  margin-top: 187px;
 }
 
 .game-btn {

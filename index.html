@@ -7,6 +7,9 @@
   <link href='./game.css' rel='stylesheet' type='text/css'/>
 </head>
 <body>
+  <header>
+    <img class="frogger" src="lib/frogger.png">
+  </header>
   <main>
     <section class="whole-game">
       <div id="background-img">
@@ -21,13 +24,12 @@
       <canvas id="game" width="600" height="600">
         <!-- Game is played here -->
       </canvas>
-    </section>
     <div class="game-info">
-      <img class="frogger" src="lib/frogger.png">
       <p class="current-level info">Level: <span class="level"></span></p>
       <p class="lives-left info">Lives: <span class="lives"></span></p>
       <p class="current-points info">Points:<span class="points"></span></p>
     </div>
+    </section>
   </main>
   <script src="main.bundle.js" width="600" height="600"></script>
 </body>
