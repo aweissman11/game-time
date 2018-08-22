@@ -1,4 +1,8 @@
 body {
+  /*background-image: url("https://i.ytimg.com/vi/8myYyMg1fFE/maxresdefault.jpg");*/
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+
   background-color: black;
 }
 
@@ -7,10 +11,13 @@ canvas {
 }
 
 main {
+}
+
+.whole-game {
   width: 600px;
   height: 600px;
   position: relative;
-  margin: 0 auto;
+  margin: 140px auto 0;
   /*box-sizing: border-box;*/
 }
 
@@ -54,27 +61,48 @@ img {
 }
 
 .info {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 18px;
-  color: white;
+  font-size: 35px;
+  color: gray;
+  margin-top: 50px;
+  filter: drop-shadow(3px 5px 0px #27d50b);
 }
 
-.game-info {
-  display: inline-block;
+.start-btn {
+  font-size: 50px;
+  color: gray;
+  filter: drop-shadow(5px 8px 0px #27d50b);
   position: relative;
-  bottom: 450px;
-  left: 650px;
+  bottom: 70px;
+}
+
+.game-score {
+  font-size: 32px;
+  color: gray;
+  filter: drop-shadow(3px 4px 0px #27d50b);
+}
+
+.lost-game {
+  position: relative;
+  top: 600px;
+}
+
+
+.game-info {
 }
 
 .game-btn {
-  font-family: 'Press Start 2P', cursive;
   visibility: visible;
   text-align: center;
   position: relative;
   bottom: 450px;
-
 }
 
+.game-over {
+  visibility: hidden;
+  text-align: center;
+  position: relative;
+  bottom: 366px;
+}
 
 
 

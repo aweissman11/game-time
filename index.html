@@ -7,20 +7,29 @@
   <link href='./game.css' rel='stylesheet' type='text/css'/>
 </head>
 <body>
-  <img class="frogger" src="lib/frogger.png">
+  <header>
+    <img class="frogger" src="lib/frogger.png">
+  </header>
   <main>
-    <div id="background-img">
-      <img src="../lib/background-image.png" alt="background-image"/>
-      <div class="game-btn">
-        <h2 class="start info">NEW GAME</h2>
+    <section class="whole-game">
+      <div id="background-img">
+        <img src="../lib/background-image.png" alt="background-image"/>
+        <div class="game-btn">
+          <p class="start-btn">NEW GAME</p>
+        </div>
+        <div class="game-over">
+          <p class="game-score">score: <span class="score"></span></p>
+        </div>
       </div>
-    </div>
-    <canvas id="game" width="600" height="600"></canvas>
+      <canvas id="game" width="600" height="600">
+        <!-- Game is played here -->
+      </canvas>
     <div class="game-info">
       <p class="current-level info">Level: <span class="level"></span></p>
       <p class="lives-left info">Lives: <span class="lives"></span></p>
-      <p class="current-points info">Points: <span class="points"></span></p>
+      <p class="current-points info">Points:<span class="points"></span></p>
     </div>
+    </section>
   </main>
   <script src="main.bundle.js" width="600" height="600"></script>
 </body>
