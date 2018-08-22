@@ -7,11 +7,10 @@ describe('GamePiece', () => {
 
   beforeEach(() => {
     gamepiece = new GamePiece(30, 30, 10, 10, 'green');    
-  })
+  });
   it('should take properties', () => {
     //Setup
     //Execution
-
     //Assertion
     assert.deepEqual(gamepiece, {
       x: 30,
@@ -23,27 +22,25 @@ describe('GamePiece', () => {
       dy: 0,
       dxv: 1,
       dyv: 1
-    })
+    });
     //Tear Down
-  })
+  });
   it('should collide with a second gamepiece that occupies the same space', () => {
     //Setup
     const gamepiece2 = new GamePiece(35, 35, 10, 10, 'red');
-    
     //Execution
     const isColliding = gamepiece.isCollidingWith(gamepiece2);
     assert.equal(isColliding, true)
     //Assertion
-  })
+  });
   it('should not collide with a second gamepiece that does not occupy the same space', () => {
     //Setup
     const gamepiece2 = new GamePiece(55, 55, 10, 10, 'red');
-    
     //Execution
     const isColliding = gamepiece.isCollidingWith(gamepiece2);
     assert.equal(isColliding, false)
     //Assertion
-  })
+  });
   it('should collide with walls', () => {
     const leftWall = new GamePiece(-10, 10, 10, 10, 'red');
     const rightWall = new GamePiece(610, 10, 10, 10, 'red');
@@ -59,29 +56,11 @@ describe('GamePiece', () => {
     assert.equal(isCollidingRight, true);
     assert.equal(isCollidingTop, true);
     assert.equal(isCollidingBottom, true);
-  })
+  });
   it('should only collide with walls if it hits them', () => {
     const isNotColliding = gamepiece.isCollidingWithWall(600, 600);
-
     assert.equal(isNotColliding, false);
-  })
+  });
   it('should be able to move', () => {})
   it('should be able to changeDirection', () => {})
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+});
