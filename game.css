@@ -1,7 +1,7 @@
 body {
   background-color: black;
   background-image: url("https://bit.ly/2PuSxIi");
-  background-size: cover;
+  background-size: fill;
   font-family: 'Press Start 2P', cursive;
 }
 
@@ -87,10 +87,7 @@ img {
 
 
 .game-info {
-  bottom: 470px;
-  display: inline-block;
-  left: 642px;
-  position: relative;
+  margin-bottom: 80px;
 }
 
 .number {
