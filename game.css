@@ -1,13 +1,12 @@
 body {
-  /*background-image: url("https://i.ytimg.com/vi/8myYyMg1fFE/maxresdefault.jpg");*/
+  background-color: black;
+  background-image: url("https://bit.ly/2PuSxIi");
   background-size: cover;
   font-family: 'Press Start 2P', cursive;
-
-  background-color: black;
 }
 
 header {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .whole-game {
@@ -15,7 +14,6 @@ header {
   height: 600px;
   position: relative;
   margin: auto;
-  /*box-sizing: border-box;*/
 }
 
 #game {
@@ -59,15 +57,15 @@ img {
 
 .info {
   font-size: 35px;
-  color: gray;
+  color: rgb(235  234 71);
   margin-top: 0px;
-  filter: drop-shadow(3px 5px 0px #27d50b);
+  filter: drop-shadow(3px 5px 0px forestgreen);
 }
 
 .start-btn {
   font-size: 50px;
-  color: gray;
-  filter: drop-shadow(5px 8px 0px #27d50b);
+  color: rgb(235  234 71);
+  filter: drop-shadow(5px 8px 0px forestgreen);
   position: relative;
   bottom: 70px;
 }
@@ -79,13 +77,16 @@ img {
 }
 
 .lost-game {
-  position: relative;
+  position: absolute;
   top: 600px;
 }
 
 
 .game-info {
-  margin-bottom: 60px;
+  bottom: 470px;
+  position: relative;
+  left: 642px;
+  display: inline-block;
 }
 
 .number {
@@ -105,15 +106,3 @@ img {
   position: relative;
   bottom: 366px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
