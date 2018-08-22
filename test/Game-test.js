@@ -64,6 +64,34 @@ describe('Game', () => {
     assert.equal(game.points, 100);
   })
 
+  it('should always start a new game fresh', () => {
+    game.lives = 2;
+    game.points = 100;
+    game.level = 4;
+
+    game.newGame();
+    assert.equal(game.lives, 5);
+    assert.equal(game.points, 0);
+    assert.equal(game.level, 1);
+  })
+
+  it('should check if you are out of lives and end the game if you are', () => {
+    assert.equal(game.gameOver, false);
+    game.checkLives();
+    assert.equal(game.gameOver, false);
+    game.lives = 0;
+    game.checkLives();
+    assert.equal(game.gameOver, true);
+  })
+
+  it('should be able to pause', () => {
+    assert.equal(game.paused, false);
+    game.togglePause();
+    assert.equal(game.paused, true);
+  })
+
+  
+
 })
 
 
